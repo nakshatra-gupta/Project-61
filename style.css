@@ -1,0 +1,52 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.Menu {
+    list-style: none;
+    font-family: cursive;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#Web Slinger {
+    width: 175px;
+    border-radius: 80%;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(seagreen 0%, darkgreen 100%)
+}
+
+.Links {
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+}
+
+.Links:hover {
+    background-color: lightseagreen;
+}
+
+#Welcome {
+    background: linear-gradient(aqua 0%, seagreen 100%);
+}
+
+#Bio {
+    background: linear-gradient(seagreen 0%, darkgreen 100%);
+}
+
+#Stan Lee {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+#Stan Lee:hover {
+    transform: scale (1.2);
+}
